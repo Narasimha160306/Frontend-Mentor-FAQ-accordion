@@ -9,9 +9,9 @@ for (const question of questionBoxes) {
     const img = parent.querySelector('img');
     if (img) {
       if (img.src.includes("icon-plus.svg")) {
-        img.src = "/faq-accordion-main/assets/images/icon-minus.svg";
+        img.src = "/Frontend-Mentor-FAQ-accordion/assets/images/icon-minus.svg";
       } else {
-        img.src = "/faq-accordion-main/assets/images/icon-plus.svg";
+        img.src = "/Frontend-Mentor-FAQ-accordion/assets/images/icon-plus.svg";
       }
     }
   });
